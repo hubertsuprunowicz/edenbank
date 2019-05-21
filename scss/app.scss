@@ -1,0 +1,42 @@
+
+/*   Image from
+ *   https://pixabay.com/photos/business-woman-professional-suit-2697954/ 
+ */
+
+// Variables
+@import "variables";
+
+// Mixins
+@import "mixins";
+
+
+* { box-sizing: border-box; }
+
+body, html { 
+    height: 100%; 
+    margin: 0; padding: 0; 
+    overflow-x: hidden;
+}
+
+ul { list-style-type: none; }
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+.uneditable-input:focus {
+  border-color: $richGold !important;
+  box-shadow: none !important;
+  outline: 0 none!important;
+}
+
+// Page elements
+@import "partials";
+@import "content";
+@import "header";
+@import "navigation";
+@import "footer";
+
+
+
+

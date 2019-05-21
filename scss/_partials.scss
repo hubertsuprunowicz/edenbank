@@ -1,0 +1,104 @@
+d-none {
+    display: none !important;
+}
+
+.text-gold {
+    color: $richGold !important;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-black:hover {
+    color: black;
+}
+
+
+.bg-gold {
+    background-color: $richGold !important;
+}
+
+.bg-gray {
+    background-color: $lightGray !important;
+}
+
+.bg-darkGray {
+    background-color: $dark !important;
+}
+
+.bg-black {
+    background-color: black !important;
+}
+
+.border-gold {
+   border: 2px solid $richGold !important;
+}
+
+.nav-item > .active {
+    background-color: $richGold !important;
+    color: white !important;
+
+}
+
+
+.mr--5 {
+    margin-right: calc(-5% + 10px) !important;
+}
+
+.mr--3 {
+    margin-right: calc(-3% + 10px) !important;
+}
+
+.ml--5 {
+    margin-left: calc(-5% + 10px) !important;
+}
+
+.ml--3 {
+    margin-left: calc(-3% + 10px) !important;
+}
+
+.z2 {
+    z-index: 2;
+}
+
+.z1 {
+    z-index: 1;
+}
+
+.z-1 {
+    z-index: -1;
+}
+
+.no-border {
+    border: 0 !important;
+    border-radius: 0;
+}
+
+w-100 {
+    width: 100%;
+}
+
+w-50 {
+    width: 50%;
+}
+
+f-1 {
+    flex: 1 !important;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.top-offset {
+    margin-top: -100px;
+}
+
+.bottom-offset {
+    margin-bottom: -100px;
+}

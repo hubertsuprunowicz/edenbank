@@ -1,0 +1,175 @@
+
+.nav-pills  {
+    margin-top: -50px;
+    text-align: center;
+   
+        > .nav-item > a {
+        border: 1px solid transparent;
+        border-radius: 0;
+        width: 20vw;
+        height: 150px;
+        background-color: white;
+    }
+}
+
+.pill-card {
+    width: 65%;
+}
+
+.pill-icon {
+    margin-left: -35px;
+
+}
+
+.pill-content li {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.img-decoration {
+    position: relative;
+    background-color: $dark;
+    
+    width: 300px;
+    height: 300px;
+
+    top: 190px;
+    right: 100px;
+    
+    z-index: -1;
+}
+
+.description-decoration {
+    border-left: 3px solid $richGold;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.support-limit {
+    max-width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+    .support-limit {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hide-description {
+        display: none;
+    }
+
+    .statistics {
+        display: none !important;
+    }
+}
+
+.contact-form {
+    @include center-block();
+    position: relative;
+    width: 50%;
+    height: auto;
+    top: -130px;
+    background-color: white;
+    border: 8px solid $richGold;
+    padding-bottom: 20px;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+.article-contact {
+    text-align: center;
+    height: 500px;
+    
+    form {
+        padding-top: 100px;
+    }
+    
+    h2 {
+        z-index: 1;
+        position: relative !important;
+        bottom: 0;
+        color: $richGold;
+        font-size: 300%;
+        font-weight: bold;
+        margin-bottom: 10px;
+        line-height: 100px;
+    }
+}
+
+.form-decoration {
+    border: none !important;
+    border-bottom: 3px solid $richGold !important;
+    
+   
+}
+
+.contact-send-btn {
+    position: relative !important;
+    left: 33%;
+    top: 50px;
+    width: 200px;
+}
+
+.counter {
+    position: relative;
+    font-size: 350%;
+    font-weight: bold;
+    margin-bottom: -30px;
+    margin-right: 90px;
+    padding-left: 40px; 
+}
+
+.counter-icon{
+    position: relative;
+    font-size: 500%;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: -50px;
+    color: $richGold;
+}
+
+
+.login-form {
+    @include center-block();
+    margin-top: 30vh;
+    width: 300px;
+    
+    > button {
+        background-color: $richGold;
+        color: white !important;
+    }
+    
+}
+
+.login-header {
+    display: flex;
+    flex-direction: row;
+    color: $richGold !important;
+    border: 2px solid $richGold;
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+    top: 28vh;
+    margin-left: auto;
+    margin-right: auto;
+    right: 30px;
+    width: 240px;
+    padding-right: 30px;
+    
+    > i {
+        margin-left: 22px;
+        margin-top: 5px;
+    }
+    
+    > h1 {
+        color: black;
+        line-height: 65px;
+        margin: -10px 0 -10px 0;
+    }
+}
+
+.pills-header {
+    font-size: 1.4em;
+}

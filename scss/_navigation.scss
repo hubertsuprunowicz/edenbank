@@ -1,0 +1,104 @@
+.dropdown:hover .dropdown-menu { display: block !important; }
+.pill-content:first-child { flex: 60%; }
+.pill-content:last-child { flex: 40%; }
+.pills-offset { margin-top: -873px; }
+
+/* Shows hidden cards for mobile */
+@media screen and (max-width: 800px) {
+    .pills-offset {
+        margin-top: 50px !important;
+        display: block !important;
+        opacity: 1 !important;
+    }
+    
+    .mobile-show {
+        display: block !important;
+        opacity: 1 !important;
+    }
+    
+    .nav-squeeze{
+        padding-top: 30px;
+        li {
+            line-height: 14px;
+            margin-top: -20px;
+            width: 80vw;
+        }
+    }
+}
+
+.over-pills {
+    
+    position: relative;
+    color:white;
+    font-weight: bold;
+}
+
+.pill-card {
+    min-width: 250px !important;
+}
+
+.pill-left {
+    width: 60%;
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+.nav-pills a {
+    position: relative;
+    margin-top: -30px;
+    z-index: 1;
+    max-width: 350px;
+    min-width: 200px;
+    
+    @media screen and (max-width: 800px) {
+        display: none !important;
+    }   
+}
+
+.nav-pills h2 {
+    margin-top: 15px;
+    margin-bottom: -35px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.abs {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.sub-menu {
+    width: 50vw !important;
+}
+
+.mega-menu * {
+    color: white !important;
+}
+
+.search-form:focus {
+    border-bottom: 2px solid $richGold !important;
+}
+
+.nav-img {
+    max-width: 200px !important;
+}
+
+.nav-login {
+    max-width: 220px;
+}
+
+.navbar-brand {
+    margin-top: -15px;
+    margin-bottom: -5px;
+    padding-top: 10px;
+    height: 50px;
+
+}
+ .nav-squeeze {
+    width: 80vw;
+}
+
+
